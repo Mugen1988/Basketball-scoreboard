@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1B244A;
+    color: #EEEEEE;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.score {
+    background-color: #080001;
+    height: 120px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-value {
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 90px;
+    
+}
+
+.score-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    color: #EEEEEE;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.leading-team {
+    background-color: #fff; 
+    color: #000; 
+}
+
+#reset-score {
+    margin-top: 20px;
+}
